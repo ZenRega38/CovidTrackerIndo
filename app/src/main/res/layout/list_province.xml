@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/globe_linear_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/tv_provinceName"
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:textColor="#000"
+            android:textSize="14sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:text="Nusa Tenggara Barat"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tv_provinceTotalCases"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#FFA91B"
+            android:textSize="14sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:text="Cases"
+            android:paddingHorizontal="20dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tv_provinceTotalRecovered"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#79D70F"
+            android:textSize="14sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:text="Recovered"
+            android:paddingHorizontal="15dp"
+            android:layout_marginStart="10dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:id="@+id/tv_provinceTotalDeaths"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="#D32626"
+            android:textSize="14sp"
+            android:layout_weight="4"
+            android:textStyle="bold"
+            android:text="Death"
+            android:paddingHorizontal="18dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
